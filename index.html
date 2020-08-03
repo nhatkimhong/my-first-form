@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+  <section>
+	  <h1><strong>Personal details</strong></h1>
+	  <form method="post" action="/test.html">
+	  	<label for="name">First name</label>
+	  	<input type="text" name="first name" id="first name">
+	  	<label for="last name">Last name</label>
+	  	<input type="text" name="last name" id="last name">
+	  	<br>
+	  	<label for="phone number">Phone number</label>
+	  	<input type="number" name="phone number" id="phone number">
+	  	<br>
+	  	<label for="address">Address</label>
+	  	<input type="text" name="address" id="address">
+	  	<br>
+	  	<label for="secret code">Your secret code for our shop</label>
+	  	<input type="password" name="secret code" id="secret code">
+    </section>
+    <section>
+    	<h1>Your order</h1>
+    	<form method="post" action="/test.html">
+    	  <label for="fruit">Choose your fruit:</label>
+    	  <input type="checkbox" name="fruit" id="fruit" value="apple">Apple
+    	  <input type="checkbox" name="fruit" id="fruit" value="pear">Pear	
+    	  <input type="checkbox" name="fruit" id="fruit" value="banana">Banana
+    	  <input type="checkbox" name="fruit" id="fruit" value="kiwi">Kiwi
+    	  <input type="checkbox" name="fruit" id="fruit" value="pineapple">Pineapple
+    	  <br>
+    	  <br>
+    	  <label for="meat">Choose your meat</label>
+    	  <input type="radio" name="meat" id="meat" value="beef">Beef
+    	  <input type="radio" name="meat" id="meat" value="chicken">Chicken
+    	  <input type="radio" name="meat" id="meat" value="fish">Fish
+    	  <input type="radio" name="meat" id="meat" value="goat">Goat
+    	  <br>
+    	  <br>
+    	  <label for="meat rating">How much do you like eating meat?</label>
+    	  <br>
+    	  <input type="range" name="meat rating" id="meat rating" step="0.5" min="1" max="10">
+    	  <br>
+    	  <br>
+    	  <label for="vegetable">Choose your vegetable:</label>
+    	  <select name="vegetable" id="vegetable">
+    	  	<option value="cabage">Cabage</option>
+    	  	<option value="letuce">Letuce</option>
+    	  	<option value="eggplant">Eggplant</option>
+    	  	<option value="potato">Potato</option>
+    	  	<option value="asparagus" selected>Asparagus</option>
+    	  </select>
+    	  <br>
+    	  <br>
+    	  <label for="cooking method">Choose your favorite cooking method:</label>
+    	  <input list="cooking methods" name="cooking method" id="cooking method">
+    	  <datalist id="cooking methods">
+    	  	<option value="boil"></option>
+    	  	<option value="stew"></option>
+    	  	<option value="fry"></option>
+    	  </datalist>
+    	  <input type="submit">
+    	  <br>
+    	  <br>
+    	  <input type="submit" value="Send">
+    	  
+
+    	</form>
+    </section>
+  </form>
+
+</body>
+</html>
